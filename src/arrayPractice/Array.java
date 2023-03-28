@@ -60,10 +60,38 @@ public class Array {
 		
 		
 		
-		
-}
+	/*
+	 * int age=160; int age2=90;
+	 * 
+	 * if(age>age2) { System.out.println("I am happy");
+	 */
 
-}
+
 	
-
-
+/*
+ * int age5=160; int age6=90;
+ * 
+ * if(age5<age6) { System.out.println("I am happy");
+ * 
+ * }else {
+ * 
+ * System.out.println("I am not happy");
+ * 
+ * }
+ */
+	
+	int age55=160;
+	int age65=90;
+	
+	if(age55<age65) {
+	System.out.println("I am not happy");	
+	
+	}else if(age55!=age65){
+		
+		System.out.println("I am  happy");
+	}else {
+		System.out.println("Nothing");
+	}
+	
+}
+}
